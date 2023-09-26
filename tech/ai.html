@@ -1,0 +1,16 @@
+---
+title: 白腾飞博客-AI 话题
+---
+
+
+<h1>AI Articles</h1>
+
+<ul>
+  {% for post in site.categories.tech %}
+    {% if post.tags contains "ai" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

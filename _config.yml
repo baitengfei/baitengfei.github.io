@@ -35,30 +35,36 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+paginate: 5
+paginate_path: "page:num"
+
 # 定义文章摘要和标签
 collections:
   posts:
     output: true
-    fields:
-      excerpt:
-        type: text
-        required: ture
-      tags:
-        type: array
-        required: false
+    permalink: /:categories/:title
+    
+      
+
+# categories
+categories:
+  - name: tech
+  - name: notes
+
+# fonts
+font: 
+  family: 
+    - "NotoSans"
 
 # 设置时区
 timezone: Asia/Shanghai
 
-# 分页显示更多的文章列表
-paginate: 5
-paginate_path: "page:num"
 
 # 将发布时间显示为距当前浏览时间的时间差
 time_ago_in_words: true
 
-# 设置 post.url 的格式
-permalink: /:categories/:slug/
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

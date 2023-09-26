@@ -1,0 +1,14 @@
+---
+layout: default
+
+---
+
+<h1>lifestyle Articles</h1>
+
+<ul>
+  {% for post in site.categories.tech %}
+    {% if post.tags contains "ai" %}
+      <li>{{ post.title }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>

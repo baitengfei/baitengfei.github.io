@@ -1,0 +1,7 @@
+
+- title: 科技
+  sublinks: 
+    - title: ai
+      url: /tech/ai
+    - title: robotics
+      url: /tech/robotics
