@@ -36,7 +36,7 @@ plugins:
   - jekyll-paginate
 
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "/page:num"
 
 # 定义文章摘要和标签
 collections:
@@ -44,6 +44,7 @@ collections:
     output: true
     permalink: /:categories/:title
     
+
       
 
 # categories

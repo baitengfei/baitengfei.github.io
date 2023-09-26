@@ -1,7 +1,5 @@
 ---
 title: 白腾飞博客-科技类文章
-
-
 ---
 
 <!DOCTYPE html>
@@ -32,13 +30,14 @@ title: 白腾飞博客-科技类文章
     <main>
       <!--标签区-->
       <div class="tags">
-        <a href="/tech/ai">AI</a>
-        <a href="/tech/robotics">Robotics</a>
-        <a href="/tech/ar">AR</a>
+        <ul>
+          <li><a href="/tech/product">#产品</a></li>
+          <li><a href="/tech/robotics">#机器人</a></li>
+          <li><a href="/tech/smarthome">#智能家居</a></li>
+        </ul>
       </div>
-
-      <article>
-        {% for post in site.categories.tech %}
+  
+      {% for post in site.categories.tech %}
       <article>
         <h1>
             <a href="{{ post.url }}">{{ post.title }}</a>
@@ -46,16 +45,12 @@ title: 白腾飞博客-科技类文章
         <div class="date">
           {{ post.date | date: "%-m月%-d日，%Y"}}
         </div>
-        <p class="description">
+        <p class="excerpt">
             {{ post.excerpt }}
         </p>
       </article>
       {% endfor %}  
-      </article>
-  
-        
     
-     
 
     </main>
 
