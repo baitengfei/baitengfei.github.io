@@ -101,25 +101,83 @@ h1 a {
     color: black;
 }
 
+.date-in-post {
+    font-size:medium;
+    font-weight: lighter;
+    color:gray;
+    padding-bottom: 40px;
+
+}
+.date-in-post::before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    vertical-align:bottom;
+    background-color: #3f3f3f;
+    margin-right: 5px;
+}
+
 h2 {
     font-size: 20px;
     padding-top: 25px;
 }
 h2::before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 10px;
-    height: 100%;
-    background-color: aqua;
-    margin-right: 10px;
+    height: 22px;
+    vertical-align: bottom;
+    background-color: #3f3f3f;
+    margin-right: 5px;
 }
   
+h3 {
+    padding-top: 18px;
+}
 p {
     color: #3f3f3f;
     font-size:16px;
+    font-weight: 300;
     text-align: justify;
     letter-spacing: 0.5px; margin-top: 11px; margin-bottom: 15px;
     line-height: 28px;
+}
+article ul {
+    list-style: none;
+    list-style-type:square;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+article ul li {
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    line-height: 20px;
+    text-align: justify;
+}
+article ol {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+article ol li {
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+blockquote {
+    border-left: 4px solid #3f3f3f;
+    margin: 20px 0;
+    padding: 0 20px;
+    
 }
 .date {
     font-size:medium;
