@@ -150,13 +150,18 @@ article ul {
     padding-top: 18px;
     padding-bottom: 18px;
 }
+article ul ul {
+    
+    padding-left: 20px;
+    padding-top: 10px;
+}
 article ul li {
     color: #3f3f3f;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.5px;
     padding: 5px;
-    line-height: 20px;
+    line-height: 25px;
     text-align: justify;
 }
 article ol {
