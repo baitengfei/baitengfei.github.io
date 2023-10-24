@@ -179,10 +179,12 @@ article ol li {
 }
 
 blockquote {
-    border-left: 4px solid #3f3f3f;
+    border-left: 4px solid grey;
     margin: 20px 0;
     padding: 0 20px;
-    color:#3f3f3f
+    color: grey;
+    font-weight: lighter;
+    font-size: small;
     
 }
 .date {
