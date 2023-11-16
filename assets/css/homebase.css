@@ -245,6 +245,15 @@ span {
     display: inline-block;
 }
 
+img {
+    width: auto;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 
 
 
