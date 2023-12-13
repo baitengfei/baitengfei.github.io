@@ -147,8 +147,9 @@ p {
 article ul {
     list-style: none;
     list-style-type:square;
-    padding-top: 18px;
+    padding-top: 5px;
     padding-bottom: 18px;
+    opacity: 0.6;
 }
 article ul ul {
     
@@ -182,7 +183,7 @@ blockquote {
     border-left: 4px solid grey;
     margin: 20px 0;
     padding: 0 20px;
-    color: grey;
+    opacity: 0.6;
     font-weight: lighter;
     font-size: small;
     
